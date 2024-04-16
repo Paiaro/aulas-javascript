@@ -33,3 +33,5 @@ const setimo = coisasquegosto[6];
 
 
 console.log(`Eu gosto ${segundo}, ${quinto}, ${setimo}!`);
+
+// console.log(`Eu gosto ${coisasquegosto[1]}, ${coisasquegosto[4]}, ${coisasquegosto[6]}!`);
