@@ -22,9 +22,9 @@ const coisasquegosto = [
     'ler livros',
     'jogar video games',
     'escalar montanhas',
-    'muito cafe',
+    'café',
     'assistir filmes',
-    'codificar HTML'];
+    'codificar HTML e CSS'];
 
  
   const segundo = coisasquegosto[1];
