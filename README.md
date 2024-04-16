@@ -12,3 +12,15 @@
 -funcionalidades de navegação
 -validação mais avançadas de formulário
 -JS pode ser usado ate mesmo para criar aplicações e games.
+
+## implementação
+
+-Pode ser feita diretamente dentro da página HTML quando for scripts mais simples ou pequenos usando a tag `script`
+-Pode ser feita em arquivos de extenção **.js** e conectados às páginas HTML usando a tag `script` com atributo `src`. é a forma mais recomendada.
+
+## Manipulação de dados 
+
+feita através de dados de diferentes tipos armazenados em memória RAM com o uso de **variaveis** e/ou **constantes**
+
+
+## Tipos de dados mais comuns
