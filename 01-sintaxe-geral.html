@@ -14,8 +14,8 @@
     <!-- Toda a programação JS precisa estar dentro de uma tag de script ou apontar para um script externo, normalmente o script fica no final da pagina (antes de terminar o body). -->
     <script>
         //habilitando o modo estrito da linguem (faz uma checagem no codigo para evitar erros)
-            /* ao fazer isso a linguagem passa a analizar se voce declarou variaveis e nao esta usando palavras-reservadas.
-        se isso acontecer, erros serão exibidos.*/
+        /* ao fazer isso a linguagem passa a analizar se voce declarou variaveis e nao esta usando palavras-reservadas.
+    se isso acontecer, erros serão exibidos.*/
         'use strict';
         //comentario apenas uma linha (ctrl ;)
 
@@ -48,7 +48,7 @@
         console.log(ano);
         console.log(escola);
 
-    
+
         // vrau = "vrau";
         // console.log(vrau);
 
@@ -60,8 +60,10 @@
         /*estou fazendo o curso de HTML5 e CSS3 no Senac Penha. */
 
         //concatenação (forma mais antiga/tradicional)
-        console.log("Estou fazendo o curso de "+curso+" no "+escola+".");
+        console.log("Estou fazendo o curso de " + curso + " no " + escola + ".");
+
         //template literal/string (forma mais moderna)
+        console.log(`estou fazendo o curso de ${curso} no ${escola}.`);
 
     </script>
 </body>
