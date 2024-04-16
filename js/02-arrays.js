@@ -9,3 +9,27 @@ console.log(alunos);
 console.log(alunos[1]); // Vinicius 
 console.log(alunos[3]); // Duda
 console.log(alunos[0]); // Wilian
+
+
+/* mini-exercicio (faça aqui mesmo)
+- crie um novo array com o nome de 7 coisas que você gosta (artista, banda, musica, livros ... sei la, inventa !)
+
+-Em seguida, mostre uma frase personalizada no console indicando o nome do segundo, do quinto e do sétimo elemento do array.*/
+
+
+const coisasquegosto = [
+    'escutar musica',
+    'ler livros',
+    'jogar video games',
+    'escalar montanhas',
+    'muito cafe',
+    'assistir filmes',
+    'codificar HTML'];
+
+ 
+  const segundo = coisasquegosto[1];
+  const quinto = coisasquegosto[4];
+  const setimo = coisasquegosto[6];
+
+  
+  console.log(`Eu gosto ${segundo}, ${quinto}, e ${setimo}!`);
