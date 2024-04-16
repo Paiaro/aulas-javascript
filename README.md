@@ -22,7 +22,6 @@
 
 feita através de dados de diferentes tipos armazenados em memória RAM com o uso de **variaveis** e/ou **constantes**
 
-
 ## Tipos de dados mais comuns
 
 - string (textos em geral)
