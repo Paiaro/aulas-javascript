@@ -32,4 +32,4 @@ const quinto = coisasquegosto[4];
 const setimo = coisasquegosto[6];
 
 
-console.log(`Eu gosto ${segundo}, ${quinto}, e ${setimo}!`);
+console.log(`Eu gosto ${segundo}, ${quinto}, ${setimo}!`);
