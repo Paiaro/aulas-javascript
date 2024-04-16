@@ -1,4 +1,5 @@
 'use strict';
+//Vetor (array de uma dimensão)
 //DECLARANDO UM ARRAY DE ALUNOS 
 const alunos = ["Wilian", "Vinicius", "Marli", "Duda", "Gabriel"];
 
@@ -36,4 +37,14 @@ console.log(`Eu gosto ${segundo}, ${quinto}, ${setimo}!`);
 
 // console.log(`Eu gosto ${coisasquegosto[1]}, ${coisasquegosto[4]}, ${coisasquegosto[6]}!`);
 
+
+// matriz (array com mais de uma dimensão)
+
+
+const tecnologias = [
+    [
+        "HTML5", "CSS3", "JavaScript"],
+    ["PHP", "Node.js", "SQL", "Python", "firebase"]
+];
+console.log(tecnologias[0][1]); //CSS3 
 
