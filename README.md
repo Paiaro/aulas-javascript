@@ -30,3 +30,5 @@ feita através de dados de diferentes tipos armazenados em memória RAM com o us
 - array (vetor/matriz - lista de dados indexados)
 - object (objeto - dados baseados em propriedades e valores)
 - boolean (booleano, valores true/verdadeiro ou false/falso)
+
+Dica: para verificar o tipo de dado de uma variável/constante. usamos o comando `typeof nomeDaVariavelOuConstante`;
