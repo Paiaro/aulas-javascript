@@ -26,10 +26,10 @@ const coisasquegosto = [
     'assistir filmes',
     'codificar HTML e CSS'];
 
- 
-  const segundo = coisasquegosto[1];
-  const quinto = coisasquegosto[4];
-  const setimo = coisasquegosto[6];
 
-  
-  console.log(`Eu gosto ${segundo}, ${quinto}, e ${setimo}!`);
+const segundo = coisasquegosto[1];
+const quinto = coisasquegosto[4];
+const setimo = coisasquegosto[6];
+
+
+console.log(`Eu gosto ${segundo}, ${quinto}, e ${setimo}!`);
