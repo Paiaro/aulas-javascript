@@ -1,41 +1,51 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>sintaxe geral no JS</title>
 </head>
+
 <body>
     <h1>começando com JavaScript</h1>
     <hr>
-    
+
     <!-- Toda a programação JS precisa estar dentro de uma tag de script ou apontar para um script externo, normalmente o script fica no final da pagina (antes de terminar o body). -->
     <script>
 
-//comentario apenas uma linha (ctrl ;)
+        //comentario apenas uma linha (ctrl ;)
 
-/* comentario de multiplas linhas (shift alt a) */
+        /* comentario de multiplas linhas (shift alt a) */
 
-console.log("hello world!");
+        console.log("hello world!");
 
-//manipulação de dados
+        //manipulação de dados
 
-// variaveis (valores podem ser modificados)
-let curso = "HTML5 e CSS3"; //string, literal (entre aspas)
-let ano = 2024; //números (inteiro/real), sem aspas
+        // variaveis (valores podem ser modificados)
+        let curso = "HTML5 e CSS3"; //string, literal (entre aspas)
+        let ano = 2024; //números (inteiro/real), sem aspas
 
-//variavel sem valor definido
-let disciplina;
-console.log(disciplina);
+        //variavel sem valor definido
+        let disciplina;
 
-//constantes (valores fixos e não podem ser modificados)
-const escola = "Senac - Penha";
+        //atribuir valores apos declarar a variavel
+        disciplina = "lógica";
 
-//saida de dados
-console.log(curso);
-console.log(ano);
-console.log(escola);
+        console.log(disciplina);
+
+
+
+
+        //constantes (valores fixos e não podem ser modificados)
+        const escola = "Senac - Penha";
+
+        //saida de dados
+        console.log(curso);
+        console.log(ano);
+        console.log(escola);
 
     </script>
 </body>
+
 </html>
