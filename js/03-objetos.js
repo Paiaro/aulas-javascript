@@ -39,3 +39,13 @@ Object.freeze(carro); // deixa o objeto imutavel
 console.log(`O ${carro.modelo} foi fabricado no ano de ${carro.ano} e com ${carro.quantidadeportas} e com ${carro.opcionais[2]} foi um carro famoso no mundo.`);
 
 
+//objeto com array e outro objeto
+
+const pessoa = {
+    nome: "Charlie Chaplin", idade: 88, telefone: ["11-2135-0300", "11-96666-5555"], medidas: {
+//propriedades como objeto
+peso: 70, altura: 165
+
+    }
+
+};
