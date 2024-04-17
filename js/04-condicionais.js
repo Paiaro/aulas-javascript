@@ -31,9 +31,9 @@ let idade = 18;
 
 if (idade >= 18) {
 
-    console.log("maior de idade !");
+    console.log(`${usuario} é maior de idade`);
 
 }
 else {
-    console.log("menor de idade !");
+    console.log(`${usuario} é menor de idade`);
 }
