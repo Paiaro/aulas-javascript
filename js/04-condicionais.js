@@ -29,11 +29,14 @@ if (numero > 5) {
 let usuario = "Bombril";
 let idade = 17;
 
+//variavel com proposito de guardar a palavra "maior" ou "menor"
+let mensagem; //indefined/ nao definida 
+
 if (idade >= 18) {
-
-    console.log(`${usuario} é maior de idade`);
-
+ mensagem = "maior";
 }
 else {
-    console.log(`${usuario} é menor de idade`);
+    mensagem = "menor"
+  
 }
+console.log(`${usuario} é ${mensagem} de idade`);
