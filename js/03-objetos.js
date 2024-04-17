@@ -43,10 +43,28 @@ console.log(`O ${carro.modelo} foi fabricado no ano de ${carro.ano} e com ${carr
 
 const pessoa = {
     nome: "Charlie Chaplin", idade: 88, telefone: ["11-2135-0300", "11-96666-5555"], medidas: {
-//propriedades como objeto
-peso: 70, altura: 1.65
+        //propriedades como objeto
+        peso: 70, altura: 1.65
 
     }
 
 };
 console.log(`O ${pessoa.nome} tem ${pessoa.medidas.peso}kg e ${pessoa.medidas.altura} de altura. contato: ${pessoa.telefone[1]}`);
+
+
+//array de objetos
+
+const livros = [
+    {
+        titulo: "Harry Potter",
+        autor: "J.K. Rowling"
+    },
+    {
+        titulo: "crônicas de Nárnia",
+        autor: "C.S. Lewis"
+    },
+    {
+        titulo: "Crônicas de Olam",
+        autor: "L.L. Wurlitzer"
+    }
+];
