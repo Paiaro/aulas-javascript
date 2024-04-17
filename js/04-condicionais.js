@@ -27,7 +27,7 @@ if (numero > 5) {
 //condicional composta
 
 let usuario = "Bombril";
-let idade = 17;
+let idade = 170;
 
 //variavel com proposito de guardar a palavra "maior" ou "menor"
 let mensagem; //indefined/ nao definida 
@@ -72,3 +72,4 @@ else{
 }
 
 console.log(`${usuario} tem ${idade} anos e é ${texto2}`);
+
