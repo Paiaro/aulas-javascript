@@ -30,7 +30,7 @@ mostre a segunte mensagem no console:
 o fiat uno fabricado em 1996 com duas portas e com vidros elétricos, foi um famoso carro no brasil.*/
 
 const carro = {
-    marca: "Karl Benz", modelo: "Benz Patent-Motorwagen", ano: "1886", quantidadeportas: 2, cor: "preto", opcionais: ["ar-condicionado", "vidros eletricos", "alarme"]
+    marca: "Karl Benz", modelo: "Benz Patent-Motorwagen", ano: 1886, quantidadeportas: 2, cor: "preto", opcionais: ["ar-condicionado", "vidros eletricos", "alarme"]
 
 };
 
