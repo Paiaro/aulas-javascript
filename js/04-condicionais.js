@@ -40,3 +40,13 @@ else {
 
 }
 console.log(`${usuario} é ${mensagem} de idade.`);
+
+
+
+//sintax Ternário
+
+console.log("if/else usando ternario ?:");
+
+let texto = idade >=18 ? "maior" : "menor";
+
+console.log(texto);
