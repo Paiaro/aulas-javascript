@@ -49,4 +49,4 @@ console.log("if/else usando ternario ?:");
 
 let texto = idade >=18 ? "maior" : "menor";
 
-console.log(texto);
+console.log(`${usuario} é ${texto} de idade.`);
