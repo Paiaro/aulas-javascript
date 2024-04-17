@@ -33,10 +33,10 @@ let idade = 17;
 let mensagem; //indefined/ nao definida 
 
 if (idade >= 18) {
- mensagem = "maior";
+    mensagem = "maior";
 }
 else {
     mensagem = "menor"
-  
+
 }
 console.log(`${usuario} é ${mensagem} de idade.`);
