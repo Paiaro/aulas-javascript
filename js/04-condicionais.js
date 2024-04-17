@@ -19,7 +19,7 @@ switch/case (escolha/caso)*/
 
 let numero = 10;
 
-if (numero >5) {
+if (numero > 5) {
 
     console.log("maior que 5");
 }
@@ -27,5 +27,13 @@ if (numero >5) {
 //condicional composta
 
 let usuario = "Bombril";
-let idade = 30;
+let idade = 18;
 
+if (idade >= 18) {
+
+    console.log("maior de idade !");
+
+}
+else {
+    console.log("menor de idade !");
+}
