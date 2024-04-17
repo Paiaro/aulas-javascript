@@ -49,4 +49,4 @@ peso: 70, altura: 1.65
     }
 
 };
-console.log(`O ${pessoa.nome} tem ${pessoa.medidas.peso}kg e ${pessoa.medidas.altura}. contato: ${pessoa.telefone[1]}`);
+console.log(`O ${pessoa.nome} tem ${pessoa.medidas.peso}kg e ${pessoa.medidas.altura} de altura. contato: ${pessoa.telefone[1]}`);
