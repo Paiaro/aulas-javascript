@@ -58,3 +58,17 @@ console.log(`${usuario} é ${idade >= 18 ? "maior" : "menor"} de idade.`);
 
 //condicional encadeada/sicessiva
 
+let texto2;
+
+if (idade >=60) {
+
+    texto2 = "idoso(a)";
+}
+else if(idade >= 18){
+    texto2 = "adulto(a)";
+}
+else{
+    texto2 = "menor de idade";
+}
+
+console.log(`${usuario} tem ${idade} anos e é ${texto2}`);
