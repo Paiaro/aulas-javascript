@@ -34,4 +34,8 @@ const carro = {
 
 };
 
-console.log(`O ${carro.modelo} foi fabricado no ano de ${carro.ano} e com ${carro.quantidadeportas} e com ${carro.opcionais[1]} foi um carro famoso no mundo.`);
+Object.freeze(carro); // deixa o objeto imutavel
+
+console.log(`O ${carro.modelo} foi fabricado no ano de ${carro.ano} e com ${carro.quantidadeportas} e com ${carro.opcionais[2]} foi um carro famoso no mundo.`);
+
+
