@@ -44,8 +44,9 @@ console.log(`O ${carro.modelo} foi fabricado no ano de ${carro.ano} e com ${carr
 const pessoa = {
     nome: "Charlie Chaplin", idade: 88, telefone: ["11-2135-0300", "11-96666-5555"], medidas: {
 //propriedades como objeto
-peso: 70, altura: 165
+peso: 70, altura: 1.65
 
     }
 
 };
+console.log(`O ${pessoa.nome} tem ${pessoa.medidas.peso} e ${pessoa.medidas.altura}. contato: ${pessoa.telefone[1]}`);
