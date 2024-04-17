@@ -68,3 +68,10 @@ const livros = [
         autor: "L.L. Wurlitzer"
     }
 ];
+
+
+console.log(livros[1].titulo);
+
+console.log("-------------------------------------------------------------");
+// Alternativa para exibição e análise de arrays e objetos (console.table).
+console.table(livros);
