@@ -27,7 +27,7 @@ if (numero > 5) {
 //condicional composta
 
 let usuario = "Bombril";
-let idade = 18;
+let idade = 17;
 
 if (idade >= 18) {
 
