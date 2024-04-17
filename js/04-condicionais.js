@@ -64,6 +64,10 @@ if (idade >=60) {
 
     texto2 = "idoso(a)";
 }
+if (idade >=100) {
+
+    texto2 = "uma mumia";
+}
 else if(idade >= 18){
     texto2 = "adulto(a)";
 }
