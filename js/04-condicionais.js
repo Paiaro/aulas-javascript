@@ -50,3 +50,11 @@ console.log("if/else usando ternario ?:");
 let texto = idade >=18 ? "maior" : "menor";
 
 console.log(`${usuario} é ${texto} de idade.`);
+
+
+//aplicando o ternario direto dentro da template string
+
+console.log(`${usuario} é ${idade >= 18 ? "maior" : "menor"} de idade.`);
+
+//condicional encadeada/sicessiva
+
