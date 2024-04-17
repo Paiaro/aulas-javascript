@@ -32,6 +32,6 @@ o fiat uno fabricado em 1996 com duas portas e com vidros elétricos, foi um fam
 const carro = {
     marca: "Karl Benz", modelo: "Benz Patent-Motorwagen", ano: "1886", quantidadeportas: 2, cor: "preto", opcionais: ["ar-condicionado", "vidros eletricos", "alarme"]
 
-}
+};
 
 console.log(`O ${carro.modelo} foi fabricado no ano de ${carro.ano} e com ${carro.quantidadeportas} e com ${carro.opcionais[1]} foi um carro famoso no mundo.`);
