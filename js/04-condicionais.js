@@ -39,4 +39,4 @@ else {
     mensagem = "menor"
   
 }
-console.log(`${usuario} é ${mensagem} de idade`);
+console.log(`${usuario} é ${mensagem} de idade.`);
