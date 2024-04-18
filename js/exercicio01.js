@@ -6,7 +6,7 @@ let nota2 = 7;
 
 let media = (nota1 + nota2) / 2;
 console.log(media);
-if (media >= 7 ) {
+if (media >= 7) {
     console.log(`Aprovado!`);
 }
 else if (media >= 5) {
