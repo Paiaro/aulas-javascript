@@ -97,3 +97,5 @@ switch (opcao) {
         break;
 }
 
+console.log("opção escolhida:" + opcao);
+console.log("mensagem:" + mensagem1);
