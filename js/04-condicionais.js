@@ -47,7 +47,7 @@ console.log(`${usuario} é ${mensagem} de idade.`);
 
 console.log("if/else usando ternario ?:");
 
-let texto = idade >=18 ? "maior" : "menor";
+let texto = idade >= 18 ? "maior" : "menor";
 
 console.log(`${usuario} é ${texto} de idade.`);
 
@@ -60,20 +60,40 @@ console.log(`${usuario} é ${idade >= 18 ? "maior" : "menor"} de idade.`);
 
 let texto2;
 
-if (idade >=60) {
+if (idade >= 60) {
 
     texto2 = "idoso(a)";
 }
-if (idade >=100) {
+if (idade >= 100) {
 
     texto2 = "uma mumia";
 }
-else if(idade >= 18){
+else if (idade >= 18) {
     texto2 = "adulto(a)";
 }
-else{
+else {
     texto2 = "menor de idade";
 }
 
 console.log(`${usuario} tem ${idade} anos e é ${texto2}`);
+
+
+// Condicional switch/case
+
+let opcao = 1;
+let mensagem1;
+
+switch (opcao) {
+    case 1: mensagem1 = "Informações";
+        break;
+
+    case 2: mensagem1 = "Reclamações";
+        break;
+
+    case 3: mensagem1 = "Elogios";
+        break;
+
+    default: mensagem1 = "Falar com atendente";
+        break;
+}
 
