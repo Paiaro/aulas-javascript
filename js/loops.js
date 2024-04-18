@@ -16,7 +16,3 @@ while (contador <= 5) {
     console.log(`Valor do contador : ${contador}`);
     contador++;
 }
-if(contador == 6){
-
-    contador = 1;
-}
