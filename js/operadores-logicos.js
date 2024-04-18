@@ -25,9 +25,9 @@ console.log(`Sua nota é ${mediaFinal}, ${resultado}`);
 
 console.log("----------------------------------------------------------");
 
-let idade = 25;
+let idade = 12;
 
-// Operador || "OR"/"OU" 
+// Operador || (PIPE) "OR"/"OU" 
 if (idade >= 18 || idade <12 ){
 
 console.log("voce é um adulto ou uma criança!");
@@ -35,3 +35,17 @@ console.log("voce é um adulto ou uma criança!");
 else{
     console.log("voce é um adolescente!");
 }
+
+console.log("------------------------------------------------------------");
+
+let onibus = 2203;
+
+if(onibus == 2203 || onibus == 2019){
+
+    console.log("passa no Senac, embarque ! ");
+
+}
+else{
+    console.log("não passa no Senac, aguarde outro");
+}
+
