@@ -80,7 +80,7 @@ console.log(`${usuario} tem ${idade} anos e é ${texto2}`);
 
 // Condicional switch/case
 
-let opcao = 4;
+let opcao = 3;
 let mensagem1;
 
 switch (opcao) {
