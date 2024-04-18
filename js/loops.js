@@ -16,3 +16,12 @@ while (contador <= 5) {
     console.log(`Valor do contador : ${contador}`);
     contador++;
 }
+
+console.log("---------------------------------------------------");
+
+// Loop FOR
+
+for( let contador = 1; contador <=10; contador++){
+
+    console.log(`contador vale: ${contador}`);
+}
