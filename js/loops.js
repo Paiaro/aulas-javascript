@@ -29,9 +29,42 @@ for( let i = 1; i <=10; i++){
 
 // Loop para acessar arrays
 
-const alunos =["Chaves","chapolin","Madruga"];
+const alunos =["Chaves","chapolin","Madruga","bruxa do 71"];
+
+// for (let i = 0; i < alunos.length;i++) {
+//     console.log(alunos[i]);
+    
+// }
+
+console.log('------------------------------------------------------');
+
+//Loop exclusivo do JS para arrays : for/of
+
+for(const aluno of alunos){
+
+    console.log(aluno);
+}
+
+console.log('--------------------------------------------');
 
 for (let i = 0; i < alunos.length;i++) {
-    console.log(alunos[i]);
+    if(i % 1==0){
+console.log(alunos[i]);
+    }
     
+}
+
+console.log('-------------------------------');
+
+
+// Loop exclusivo do JS para objetos: for/in
+
+const livro={
+    titulo: "HTML5", autor: "Maujor", site: "http/maujor.com", ano: 2016
+};
+//acessando a propriedade dentro do livro
+for(const prop in livro){
+
+console.log(livro[prop]);
+
 }
