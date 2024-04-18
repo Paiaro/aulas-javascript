@@ -20,3 +20,18 @@ else {
 }
 
 console.log(`Sua nota é ${mediaFinal}, ${resultado}`);
+
+// exemplo
+
+console.log("----------------------------------------------------------");
+
+let idade = 25;
+
+// Operador || "OR"/"OU" 
+if (idade >= 18 || idade <12 ){
+
+console.log("voce é um adulto ou uma criança!");
+}
+else{
+    console.log("voce é um adolescente!");
+}
