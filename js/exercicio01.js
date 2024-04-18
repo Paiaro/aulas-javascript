@@ -1,5 +1,5 @@
 'use strict';
-
+// VAR variavel de escopo global let de escopo em bloco
 let nota1 = 9;
 
 let nota2 = 5;
