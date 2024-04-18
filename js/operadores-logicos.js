@@ -19,4 +19,4 @@ else {
     resultado = "reprovado";
 }
 
-console.log(`${mediaFinal} ${resultado} Meus parabens !`);
+console.log(`Sua nota é ${mediaFinal}, ${resultado} Meus parabens !`);
