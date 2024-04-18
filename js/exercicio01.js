@@ -1,17 +1,17 @@
-'use sctrict';
+'use strict';
 
-let nota1 = 3;
+let nota1 = 10;
 
 let nota2 = 3;
 
 let media = (nota1 + nota2) / 2;
- 
-if (media >= 7) {
+console.log(media);
+if (media <= 7) {
     console.log(`Aprovado!`);
 }
-else if(media <= 5){
+else if (media <= 5) {
 
-console.log(`recuperação`);
+    console.log(`recuperação`);
 }
 else {
     console.log(`Reprovado !`);
