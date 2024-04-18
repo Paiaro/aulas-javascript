@@ -2,7 +2,7 @@
 
 let nota1 = 7;
 
-let nota2 = 8;
+let nota2 = 7;
 
 let media = (nota1 + nota2) / 2;
 console.log(media);
