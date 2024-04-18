@@ -21,7 +21,8 @@ console.log("---------------------------------------------------");
 
 // Loop FOR
 
-for( let contador = 1; contador <=10; contador++){
+for( let i = 1; i <=10; i++){
 
-    console.log(`contador vale: ${contador}`);
+    console.log(`contador vale: ${i}`);
 }
+//obs: normalmente, variaveis de controle de repetição são chamadas de "i", "j", "k"
