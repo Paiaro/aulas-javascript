@@ -62,7 +62,7 @@ console.log('-------------------------------');
 const livro={
     titulo: "HTML5", autor: "Maujor", site: "http/maujor.com", ano: 2016
 };
-//acessando a propriedade dentro do livro
+//acessando a propriedade dentro do livro usando o IN
 for(const prop in livro){
 
 console.log(livro[prop]);
