@@ -8,7 +8,7 @@ const faltasMaxima = 10;
 // Aluno de exemplo
 
 let aluno = "Dayane";
-let mediaFinal = 8;
+let mediaFinal = 0;
 let faltas = 0;
 let resultado;
 // operador && "and" ("E")
@@ -19,4 +19,4 @@ else {
     resultado = "reprovado";
 }
 
-console.log(`Sua nota é ${mediaFinal}, ${resultado} Meus parabens !`);
+console.log(`Sua nota é ${mediaFinal}, ${resultado}`);
