@@ -26,3 +26,12 @@ for( let i = 1; i <=10; i++){
     console.log(`contador vale: ${i}`);
 }
 //obs: normalmente, variaveis de controle de repetição são chamadas de "i", "j", "k"
+
+// Loop para acessar arrays
+
+const alunos =["Chaves","chapolin","Madruga"];
+
+for (let i = 0; i < alunos.length;i++) {
+    console.log(alunos[i]);
+    
+}
