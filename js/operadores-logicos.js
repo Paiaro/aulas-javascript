@@ -12,8 +12,8 @@ let mediaFinal = 0;
 let faltas = 0;
 let resultado;
 // operador && "and" ("E")
-if (mediaFinal >= mediaMinima && faltas <= faltasMaxima ){
-resultado = "aprovado";
+if (mediaFinal >= mediaMinima && faltas <= faltasMaxima) {
+    resultado = "aprovado";
 }
 else {
     resultado = "reprovado";
@@ -28,11 +28,11 @@ console.log("----------------------------------------------------------");
 let idade = 12;
 
 // Operador || (PIPE) "OR"/"OU" 
-if (idade >= 18 || idade <12 ){
+if (idade >= 18 || idade < 12) {
 
-console.log("voce é um adulto ou uma criança!");
+    console.log("voce é um adulto ou uma criança!");
 }
-else{
+else {
     console.log("voce é um adolescente!");
 }
 
@@ -40,12 +40,12 @@ console.log("------------------------------------------------------------");
 
 let onibus = 2203;
 
-if(onibus == 2203 || onibus == 2019){
+if (onibus == 2203 || onibus == 2019) {
 
     console.log("passa no Senac, embarque ! ");
 
 }
-else{
+else {
     console.log("não passa no Senac, aguarde outro");
 }
 
