@@ -49,3 +49,16 @@ else {
     console.log("não passa no Senac, aguarde outro");
 }
 
+console.log("------------------------------------------------------------");
+
+
+// Operador de negação "!"  (NOT/Negação)
+
+let blackFri = false; // false simboliza que nao esta ativo;
+
+// Se blackfri nao for verdadeira
+if(!blackFri){
+    console.log("Preços normais");
+}else{
+    console.log("black friday !!!!");
+}
