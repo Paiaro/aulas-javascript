@@ -54,7 +54,7 @@ console.log("------------------------------------------------------------");
 
 // Operador de negação "!"  (NOT/Negação)
 
-let blackFri = false; // false simboliza que nao esta ativo;
+let blackFri = true; // false simboliza que nao esta ativo;
 
 // Se blackfri nao for verdadeira
 if(!blackFri){
