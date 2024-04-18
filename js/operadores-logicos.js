@@ -17,6 +17,5 @@ resultado = "aprovado";
 }
 else {
     resultado = "reprovado";
-
 }
 console.log(resultado);
