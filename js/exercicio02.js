@@ -6,6 +6,6 @@ const clientes = [
     { id: 3, name: 'Shiryu' },
   ];
   
-  for (const clientes of clientes) {
-    console.log(`Cliente: ${clientes.name} (id: ${clientes.id})`);
+  for (const cliente of clientes) {
+    console.log(`Cliente: ${cliente.name} (id: ${cliente.id})`);
   }
