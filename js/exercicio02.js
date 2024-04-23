@@ -7,5 +7,5 @@ const clientes = [
   ];
   
   for (const clientes of clientes) {
-    console.log(`Cliente: ${clientes.name} (id: ${cliente.id})`);
+    console.log(`Cliente: ${clientes.name} (id: ${clientes.id})`);
   }
