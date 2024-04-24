@@ -37,21 +37,23 @@ function converter(valor) {
 
 }
 
-function formatarMoeda(valor, moedas) {
+function formatarMoeda(valor, moedas,localizacao) {
     const opcoes = {
         style: "currency",
         currency: moedas
     };
-    return new Intl.NumberFormat("pt-br", opcoes).format(valor);
+    return new Intl.NumberFormat(localizacao, opcoes).format(valor);
 
 }
 // versão sem fomatação
 console.log(converter(valorDolar));
 //versão 1 (função com parametro para outra função) com formatação
-console.log(formatarMoeda(converter(valorDolar), "BRL"));
+console.log(formatarMoeda(converter(valorDolar), "BRL","pt-br"));
 
 // segunda versão corrigida (guardamos o resultado da conversão; depois passamos o resultado para a formatação)
 
 let resultadoReais = converter(valorDolar);
 
-console.log(formatarMoeda(valorDolar,"USD"));
+console.log(formatarMoeda(valorDolar, "USD","en"));
+
+
