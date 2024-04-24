@@ -60,6 +60,9 @@ console.log(variosElementos);
 
 Podemos alterar conteúdo, tags, estilos, criar elementos, remover elementos etc*/
 
-
+//alteração de conteudo textual
 legenda.textContent = "Imagem modelo de objetos do documento";
+
+//ateração de conteúdo com suporte à tags
+sobrefront.innerHTML = "<i>Front-End</i>";
 
