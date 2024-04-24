@@ -66,3 +66,13 @@ legenda.textContent = "Imagem modelo de objetos do documento";
 //ateração de conteúdo com suporte à tags
 sobrefront.innerHTML = "<i>Front-End</i>";
 
+//alteração de estilos inline (CSS in JS)
+
+titulo.style.color = "red";
+titulo.style.textAlign = "center";
+
+subtitulo1.style.color = "red";
+
+//aplicação de classes CSS via JavaScript
+
+titulo.classList.add("destaque");
