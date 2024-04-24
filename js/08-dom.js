@@ -43,3 +43,15 @@ console.log(subtitulo1);
 const subtitulo2 = document.querySelector(".editores h2")
 
 console.log(subtitulo2);
+
+//exemplo 3 queryElementAll () funciona parecido com um array
+
+const subtitulos = document.querySelectorAll("h2")
+
+console.log(subtitulos);
+console.log(subtitulos[1]);
+
+
+const variosElementos = document.querySelectorAll("p,a,p b, #teste, .xyz, ol")
+
+console.log(variosElementos);
