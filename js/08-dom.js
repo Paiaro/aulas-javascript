@@ -55,3 +55,5 @@ console.log(subtitulos[1]);
 const variosElementos = document.querySelectorAll("p,a,p b, #teste, .xyz, ol")
 
 console.log(variosElementos);
+
+/* */
