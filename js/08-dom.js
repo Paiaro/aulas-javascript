@@ -13,3 +13,33 @@ Seleciona UM ELEMENTO através de seletor baseado na lógica CSS
 */
 
 //exemplo 1: getyElementById()
+
+
+const legenda = document.getElementById("legenda");
+console.log(legenda);
+
+//exemplo 2: querySelector()
+
+const titulo = document.querySelector("h1");
+
+console.log(titulo);
+
+const sobrefront = document.querySelector ("#sobre")
+
+console.log(sobrefront);
+
+
+// exercicio 1
+
+/* 1) Faça o acesso/seleção do h2 de back-end e mostre no console
+
+2) faça o acesso/seleção apenas do h2 existente dentro da div com a classe 'editores' e mostre no console*/
+
+
+const subtitulo1 = document.querySelector (".back-end")
+
+console.log(subtitulo1);
+
+const subtitulo2 = document.querySelector(".editores h2")
+
+console.log(subtitulo2);
