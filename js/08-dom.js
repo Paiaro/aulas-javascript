@@ -24,7 +24,7 @@ const titulo = document.querySelector("h1");
 
 console.log(titulo);
 
-const sobrefront = document.querySelector ("#sobre")
+const sobrefront = document.querySelector("#sobre")
 
 console.log(sobrefront);
 
@@ -36,7 +36,7 @@ console.log(sobrefront);
 2) faça o acesso/seleção apenas do h2 existente dentro da div com a classe 'editores' e mostre no console*/
 
 
-const subtitulo1 = document.querySelector (".back-end")
+const subtitulo1 = document.querySelector(".back-end")
 
 console.log(subtitulo1);
 
