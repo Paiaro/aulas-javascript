@@ -56,4 +56,10 @@ const variosElementos = document.querySelectorAll("p,a,p b, #teste, .xyz, ol")
 
 console.log(variosElementos);
 
-/* */
+/*modificando o DOM : 
+
+Podemos alterar conteúdo, tags, estilos, criar elementos, remover elementos etc*/
+
+
+
+
