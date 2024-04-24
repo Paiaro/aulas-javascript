@@ -61,5 +61,5 @@ console.log(variosElementos);
 Podemos alterar conteúdo, tags, estilos, criar elementos, remover elementos etc*/
 
 
-
+legenda.textContent = "Imagem modelo de objetos do documento";
 
