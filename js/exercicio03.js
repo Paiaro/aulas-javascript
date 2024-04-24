@@ -18,5 +18,5 @@ function converter(dolar) {
 let dolarInformado = parseFloat(prompt("qual a quantidade de dolar "));
 let convertido = converter(dolarInformado);
 
-escreva("Você irá ter" + " R$" + convertido + " reais");
+escreva("Você irá ter" + " R$" + convertido + " reais.");
 escreva("E o equivalente a:" + " $" + dolarInformado + " dólares");
