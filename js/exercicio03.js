@@ -20,4 +20,3 @@ let convertido = converter(dolarInformado);
 
 escreva("Você irá ter" + " R$" + convertido + " reais");
 escreva("E o equivalente a:" + " $" + dolarInformado + " dólares");
-
