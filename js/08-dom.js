@@ -11,3 +11,5 @@ Seleciona UM ELEMENTO através de seletor baseado na lógica CSS
 - querySelectorAll()
  Seleciona TODOS ou Vários elementos através do seletor baseado na lógica CSS
 */
+
+//exemplo 1: getyElementById()
