@@ -76,3 +76,5 @@ subtitulo1.style.color = "red";
 //aplicação de classes CSS via JavaScript
 
 titulo.classList.add("destaque");
+
+const listaDeEditores = [{nome: "Visual Studio Code", Finalidade: "desenvolvimento web em geral"},{nome: "android studio", finalidade: "desenvolvimento de aplicações android"},{nome:"xcode", finalidade: "desenvolvimento de aplicaçoes IOS"}]
