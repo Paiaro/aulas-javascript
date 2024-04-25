@@ -78,7 +78,7 @@ subtitulo1.style.color = "red";
 titulo.classList.add("destaque");
 
 const listaDeEditores = [{
-    nome: "Visual Studio Code", Finalidade: "desenvolvimento web em geral"
+    nome: "Visual Studio Code", finalidade: "desenvolvimento web em geral"
 },
 {
     nome: "android studio", finalidade: "desenvolvimento de aplicações android"
@@ -99,10 +99,13 @@ console.log(lista);
 for(const editor of listaDeEditores){
 
 // Etapa 1 : criar elemento <li>
+const item = document.createElement("li");
 
+// Etapa 2 :  adicionar conteudo ao elemento
+item.innerHTML = `<big>${editor.nome}</big>: ${editor.finalidade}`;
 
-// Etapa 2 :  
+// Etapa 3 : adicionar o elemento a lista <ol>
+lista.appendChild(item);
 
-// Etapa 3 :
 
 }
