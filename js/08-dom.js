@@ -106,6 +106,14 @@ for (const editor of listaDeEditores) {
 
     // Etapa 3 : adicionar o elemento a lista <ol>
     lista.appendChild(item);
+}
 
+/* Criando/configurando HTML via JS */
+
+const listaReferencia = document.querySelectorAll(".referencias a");
+
+for (const linksReferencia of listaReferencia) {
+
+    linksReferencia.setAttribute("target", "blank");
 
 }
