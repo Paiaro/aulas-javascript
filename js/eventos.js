@@ -48,14 +48,14 @@ botao.addEventListener("click",function(){
 
     pagina.classList.toggle("noturno");
     divConteiner.classList.toggle("noturno");
-
-
+   const textoBotao = botao.textContent;
+   botao.textContent = textoBotao === "desativar" ? "ativar" : "desativar";
+   
 });
 
 /* desafio
 
 1) Aplicar um efeito de mudança de cores suave
 2) Fazer o botão mudar de texto, ou seja, iniciar com o texto "ativar" e trocar para texto "desativar" conforme o que estiver acontecendo.*/
-
 
 
