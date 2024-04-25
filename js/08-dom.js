@@ -115,5 +115,4 @@ const listaReferencia = document.querySelectorAll(".referencias a");
 for (const linksReferencia of listaReferencia) {
 
     linksReferencia.setAttribute("target", "blank");
-
 }
