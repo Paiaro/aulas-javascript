@@ -39,4 +39,18 @@ video.play();
 
 });
 
+/* exemplo modo noturno */
+const divConteiner = document.querySelector(".conteiner");
+const botao = document.querySelector("#noturno");
+
+//usamos toggle para alterar entre os estados da classe (aplicada e nao aplicada)
+botao.addEventListener("click",function(){
+
+    pagina.classList.toggle("noturno");
+    divConteiner.classList.toggle("noturno");
+
+
+});
+
+
 
