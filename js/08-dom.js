@@ -92,3 +92,12 @@ const listaDeEditores = [{
 const lista =  document.querySelector(".lista");
 
 console.log(lista);
+
+/* Percorrer (loop) o array de  listaDeEditores e criar os itens <li> com o conteúdo do array e adiciona-los a lista html. */
+
+//for (variavel/constante de acesso of array com dados que queremos acessar){}
+for(const editor of listaDeEditores){
+
+    console.log(editor.nome);
+
+}
