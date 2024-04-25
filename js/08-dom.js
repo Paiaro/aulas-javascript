@@ -98,6 +98,11 @@ console.log(lista);
 //for (variavel/constante de acesso of array com dados que queremos acessar){}
 for(const editor of listaDeEditores){
 
-    console.log(editor.nome);
+// Etapa 1 : criar elemento <li>
+
+
+// Etapa 2 :  
+
+// Etapa 3 :
 
 }
