@@ -89,23 +89,23 @@ const listaDeEditores = [{
 
 // Acessando/selecionando a lista que será usada no html
 
-const lista =  document.querySelector(".lista");
+const lista = document.querySelector(".lista");
 
 console.log(lista);
 
 /* Percorrer (loop) o array de  listaDeEditores e criar os itens <li> com o conteúdo do array e adiciona-los a lista html. */
 
 //for (variavel/constante de acesso of array com dados que queremos acessar){}
-for(const editor of listaDeEditores){
+for (const editor of listaDeEditores) {
 
-// Etapa 1 : criar elemento <li>
-const item = document.createElement("li");
+    // Etapa 1 : criar elemento <li>
+    const item = document.createElement("li");
 
-// Etapa 2 :  adicionar conteudo ao elemento
-item.innerHTML = `<big>${editor.nome}</big>: ${editor.finalidade}`;
+    // Etapa 2 :  adicionar conteudo ao elemento
+    item.innerHTML = `<big><b>${editor.nome}</b></big>: ${editor.finalidade}`;
 
-// Etapa 3 : adicionar o elemento a lista <ol>
-lista.appendChild(item);
+    // Etapa 3 : adicionar o elemento a lista <ol>
+    lista.appendChild(item);
 
 
 }
