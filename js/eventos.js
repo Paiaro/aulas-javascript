@@ -11,9 +11,9 @@ const efeitoSom = new Audio();
 efeitoSom.src = "wow.wav";
 
 //Criando um objeto de imagem referenciando o arquivo
- 
+
 const imagem = new Image();
-imagem.src = "meme.fig";
+imagem.src = "meme.gif";
 
 // Criar um ouvinte de eventos (Event Listener)
 //O primeiro parâmetro do addEventoListener é o tipo de evento que queremos "ouvir/monitorar". O segundo parametro é uma função (conhecida como callback) responsavel por executar ações no momento em que o evento acontecer.
@@ -25,6 +25,11 @@ exemplo01.addEventListener("click", function () {
     mensagem.classList.add("destaque");
 
     efeitoSom.play();
+
+    mensagem.insertAdjacentElement("afterend", imagem);
+
+
+
 });
 
 
