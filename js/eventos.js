@@ -40,7 +40,7 @@ video.play();
 });
 
 /* exemplo modo noturno */
-const divConteiner = document.querySelector(".conteiner");
+const divConteiner = document.querySelector(".container");
 const botao = document.querySelector("#noturno");
 
 //usamos toggle para alterar entre os estados da classe (aplicada e nao aplicada)
@@ -51,6 +51,11 @@ botao.addEventListener("click",function(){
 
 
 });
+
+/* desafio
+
+1) Aplicar um efeito de mudança de cores suave
+2) Fazer o botão mudar de texto, ou seja, iniciar com o texto "ativar" e trocar para texto "desativar" conforme o que estiver acontecendo.*/
 
 
 
