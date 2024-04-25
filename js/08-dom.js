@@ -85,4 +85,10 @@ const listaDeEditores = [{
 },
 {
     nome: "xcode", finalidade: "desenvolvimento de aplicaçoes IOS"
-}]
+}];
+
+// Acessando/selecionando a lista que será usada no html
+
+const lista =  document.querySelector(".lista");
+
+console.log(lista);
