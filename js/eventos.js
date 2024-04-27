@@ -50,6 +50,7 @@ botao.addEventListener("click",function(){
     divConteiner.classList.toggle("noturno");
     const textoBotao = botao.textContent;
     botao.textContent = textoBotao === "desativar" ? "ativar" : "desativar";
+    pagina.style.transition = "0.5s";
    
 });
 
