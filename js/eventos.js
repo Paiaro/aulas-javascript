@@ -49,7 +49,7 @@ botao.addEventListener("click",function(){
     pagina.classList.toggle("noturno");
     divConteiner.classList.toggle("noturno");
     const textoBotao = botao.textContent;
-    botao.textContent = textoBotao === "desativar" ? "ativar" : "desativar";
+    botao.textContent = textoBotao == "desativar" ? "ativar" : "desativar";
     pagina.style.transition = "0.5s";
    
 });
